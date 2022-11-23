@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+}
+
+.container{
+    width: 120px;
+    height: 100vh;
+  
+    background-color: blanchedalmond;
+    border-left: 5px solid rosybrown;
+    border-top-right-radius: 10px;
+}
+
+
+
+.container p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 10px;
+    text-transform: capitalize;
+    padding: 5px 10px;
+
+}
+.container p:hover ,button:hover{
+    border-radius: 10px;
+    background-color:rosybrown;
+    border:1px solid rgb(164, 155, 141);
+    
+}
+
+button{
+    border:1px solid rgb(164, 155, 141);
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+   
+} 
+.heid{
+    display: none;
+}
+
+#close{
+    position: absolute;
+    left: 114px;
+}
